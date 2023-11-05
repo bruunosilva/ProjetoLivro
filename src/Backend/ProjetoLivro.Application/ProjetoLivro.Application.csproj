@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\ProjetoLivro.Comunicacao\ProjetoLivro.Comunicacao.csproj" />
+      <ProjectReference Include="..\..\Shared\ProjetoLivro.Exceptions\ProjetoLivro.Exceptions.csproj" />
+      <ProjectReference Include="..\ProjetoLivro.Domain\ProjetoLivro.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
